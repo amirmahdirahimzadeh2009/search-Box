@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: purple;
+}
+h1 {
+  color: white;
+}
+.searchBox {
+  padding: 8px 60px;
+  border-radius: 16px;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  width: 300px;
+  height: 300px;
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
